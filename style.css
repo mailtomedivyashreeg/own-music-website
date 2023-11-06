@@ -1,0 +1,713 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+h1{
+    color:#fff;
+    box-shadow: #fff;
+    text-align: center;
+    
+    
+
+}  
+body {
+        
+        justify-content: center;
+        align-items:center;
+        min-height: 100px;
+        background: #000;
+        background-image: url(pictures/music.jpg);
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-bottom: 500px;
+        justify-content:space-between;
+        display: flex;/*changes made here*//*new change*/
+      flex-direction:column;/*29/10/23 changes made for this space between image*/
+      /* display:list-item;/*29/10/23 new change made that can be changed if it is needed*/
+       
+        
+    }
+  
+/*Naan-Gaali*/
+
+.player1{
+    width: 350px;
+    height:-100px;
+    background: #f1f3f4;
+    border-radius: 30px;
+    box-shadow:0px 50px 80px aqua;
+    padding-left:90px;
+    padding-top: 50px;
+    float:left;/*new change made*/
+    display: inline-table;
+    
+
+}
+
+.player1 .imgbox1{
+
+    position:relative;
+    width: 100%;
+    height: 350px;
+    padding-top: 100px;
+    padding-left:60px;
+    background-color:#fff;
+}
+.player1  .imgbox1 .img{
+    position:relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+   display: grid;
+    
+
+}
+.player1 audio{
+    width: 100%;
+    padding-right: 100px;
+    outline: none;
+ 
+}
+/*pogiren*/
+.player2{
+  
+    width: 350px;
+    height:-100px;/* changes made separately for this image*/
+    background: #f1f3f4;
+    border-radius: 30px;
+    box-shadow:0px 50px 80px aqua;
+    padding-left:90px;
+    padding-top: 50px;/*changes made for this image*/
+    float:left;/*new changes made*/ 
+    
+    
+
+
+   
+}
+.player2 .imgbox2{
+
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding-top: 100px;
+    padding-left: 90px;
+    background-color: #fff;
+ 
+    
+}
+    
+.player2 .imgbox2 .img{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    display: grid;
+    
+    
+
+}
+.player2 audio{
+    width: 100%;
+    padding-right: 100px;
+    outline: none;
+   
+}
+/*khushi*/
+.player3{
+
+    width: 350px;
+    height:-100px;
+    background: #f1f3f4;
+    border-radius: 30px;
+    box-shadow:0 50px 80px aqua;
+    padding-left:90px;
+    padding-top: 75px;/*changes separately made for this image*/
+    float:left;/*new changes made*/
+ 
+
+}
+.player3 .imgbox3{
+
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding-top:90px;
+    padding-left: 50px;
+    background-color: #fff;
+   
+    
+     
+    
+}
+.player3  .imgbox3 .img{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    display: grid;
+    
+    
+
+}
+.player3 audio{
+    width: 100%;
+    padding-right: 100px;
+    outline: none;
+}
+/*Tholaindhaayo*/
+.player4{
+
+    width: 350px;
+    height:-100px;
+    background: #f1f3f4;
+    border-radius: 30px;
+    box-shadow:0 50px 80px aqua;
+    padding-left:90px;
+    padding-top: 100px;/*changes  separately made for this image*/
+    float:right;/*new changes made*/
+  
+}
+.player4 .imgbox4{
+
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding-top:100px;
+    padding-left: 50px;
+    background-color: #fff;
+
+    
+     
+    
+}
+.player4  .imgbox4 .img{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    display: grid;
+    
+    
+
+}
+.player4 audio{
+    width: 100%;
+    padding-right: 100px;
+    outline: none;
+}
+/*yaanji*/
+.player5{
+
+    width: 350px;
+    height:-100px;
+    background: #f1f3f4;
+    border-radius: 30px;
+    box-shadow:0 50px 80px aqua;
+    padding-left:50px;/*changes made here*/
+    padding-top: 75px;
+    float:left;/*new changes made*/
+   
+}
+.player5 .imgbox5{
+
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding-top:90px;
+    padding-left: 50px;
+    background-color: #fff;
+
+    
+     
+    
+}
+.player5  .imgbox5 .img{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    display: grid;
+    
+    
+
+}
+.player5 audio{
+    width: 100%;
+    padding-right: 100px;
+    outline: none;
+}
+/* From here new changes are made in the all the headings and based on the size it is made*/
+/*nabiyae*/
+.player6{
+
+    width: 350px;
+    height:-100px;
+    background: #f1f3f4;
+    border-radius: 30px;
+    box-shadow:0 50px 80px aqua;
+    padding-left:30px;/*changes made for this image*/
+    padding-top:20px;/*changes made for this image separately*/
+   float:right;/*new changes made*/
+}
+.player6 .imgbox6{
+
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding-top:90px;
+    padding-left: 50px;
+    background-color: #fff;
+
+    
+     
+    
+}
+.player6  .imgbox6 .img{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    display: grid;
+    
+    
+
+}
+.player6 audio{
+    width: 100%;
+    padding-right: 100px;
+    outline: none;
+}
+/*en rojaa neeyae*/
+.player7{
+
+    width: 350px;
+    height:-100px;
+    background: #f1f3f4;
+    border-radius: 30px;
+    box-shadow:0 50px 80px aqua;
+    padding-left:30px;/*changes made for this image*/
+    padding-top: 50px;
+    float:left;/*new changes made*/
+   
+}
+.player7 .imgbox7{
+
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding-top:90px;
+    padding-left:50px;
+    background-color: #fff;
+    
+    
+     
+    
+}
+.player7  .imgbox7 .img{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    display: grid;
+    
+    
+
+}
+.player7 audio{
+    width: 100%;
+    padding-right:100px;
+    outline: none;
+}
+/* naan pizhai*/
+.player8{
+
+    width: 350px;
+    height:-100px;
+    background: #f1f3f4;
+    border-radius: 30px;
+    box-shadow:0 50px 80px aqua;
+    padding-left:30px;/*changes made for this image*/
+    padding-top: 50px;
+    float:right;/*new changes made*/
+ 
+
+}
+.player8 .imgbox8{
+
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding-top: 100px;
+    background-color: #fff;
+    
+    
+}
+.player8 .imgbox8 .img{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    display: grid;
+
+}
+.player8 .imgbox8 .music{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+
+}
+.player8 audio{
+    width: 100%;
+    padding-right:100px;
+    outline: none;
+}
+/* heeriyae*/
+.player9{
+
+    width: 350px;
+    height:-100px;
+    background: #f1f3f4;
+    border-radius: 30px;
+    box-shadow:0 50px 80px aqua;
+    padding-left:30px;/*changes made for this image*/
+    padding-top: 50px;
+    float:left;/*new changes made*/
+}
+.player9 .imgbox9{
+
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding-top: 100px;
+    background-color: #fff;
+
+    
+    
+}
+.player9 .imgbox9 .img{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    display: grid;
+   
+
+}
+.player9 .imgbox9 .music{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+
+}
+.player9 audio{
+    width: 100%;
+    padding-right:100px;
+    outline: none;
+}
+/* visiri*/
+.player10{
+    width: 350px;
+    height:-100px;
+    background: #f1f3f4;
+    border-radius: 30px;
+    box-shadow:0 50px 80px aqua;
+    padding-left:30px;/*changes made for this image*/
+    padding-top: 50px;
+    float:right;/*new changes made*/
+  
+}
+.player10 .imgbox10{
+
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding-top: 100px;
+    background-color: #fff;
+    
+    
+}
+.player10 .imgbox10 .img{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    display: grid;
+
+}
+.player10 .imgbox10 .music{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+
+}
+.player10 audio{
+    width: 100%;
+    padding-right:100px;
+    outline: none;
+}
+/*theethriyathe*/
+.player11{
+
+    width: 350px;
+    height:-100px;
+    background: #f1f3f4;
+    border-radius: 30px;
+    box-shadow:0 50px 80px aqua;
+    padding-left:30px;/*changes made for this image*/
+    padding-top: 50px;
+    float:left;/*new changes made*/
+  
+}
+.player11 .imgbox11{
+
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding-top: 100px;
+    background-color: #fff;
+    
+    
+}
+.player11 .imgbox11 .img{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    display: grid;
+
+}
+.player11 .imgbox11 .music{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+
+}
+.player11 audio{
+    width: 100%;
+    padding-right:100px;
+    outline: none;
+}
+
+/*vizhiyae kalangathae*/
+.player12{
+
+    width: 350px;
+    height:-100px;
+    background: #f1f3f4;
+    border-radius: 30px;
+    box-shadow:0 50px 80px aqua;
+    padding-left:30px;/*changes made for this image*/
+    padding-top: 50px;
+    float:right;/*new changes made*/
+    
+}
+.player12 .imgbox12{
+
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding-top: 100px;
+    background-color: #fff;
+    
+    
+}
+.player12 .imgbox12 .img{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    display: grid;
+
+}
+.player12 .imgbox12 .music{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+
+}
+.player12 audio{
+    width: 100%;
+    padding-right:100px;
+    outline: none;
+}
+/*kadhal ennulle*/
+.player13{
+
+    width: 350px;
+    height:-100px;
+    background: #f1f3f4;
+    border-radius: 30px;
+    box-shadow:0 50px 80px #000;
+    padding-left:30px;/*changes made for this image*/
+    padding-top: 50px;
+    float:left;/*new changes made*/
+    
+}
+.player13 .imgbox13{
+
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding-top: 100px;
+    background-color: #fff;
+    
+    
+}
+.player13 .imgbox13 .img{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    display: grid;
+
+}
+.player13 .imgbox13 .music{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+
+}
+.player13 audio{
+    width: 100%;
+    padding-right:100px;
+    outline: none;
+}
+
+
+/*kadhal ennulle*/
+.player14{
+
+    width: 350px;
+    height:-100px;
+    background: #f1f3f4;
+    border-radius: 30px;
+    box-shadow:0 50px 80px aqua;
+    padding-left:30px;/*changes made for this image*/
+    padding-top: 50px;
+    float:left;/*new changes made*/
+    
+}
+.player14 .imgbox14{
+
+    position: relative;
+    width: 100%;
+    height: 350px;
+    padding-top: 100px;
+    background-color: #fff;
+    
+    
+}
+.player14 .imgbox14 .img{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    display: grid;
+
+}
+.player14 .imgbox14 .music{
+    position: relative;
+    top: 350;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+
+}
+.player14 audio{
+    width: 100%;
+    padding-right:100px;
+    outline: none;
+}
+
+
